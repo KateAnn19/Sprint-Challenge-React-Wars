@@ -12,12 +12,6 @@ body {
   overflow-x: hidden;
 }
 
-h1 {
-  color: black;
-  font-size: 50px;
-  text-align: center;
-  margin: 0;
-}
 
 
 #root {
@@ -38,13 +32,7 @@ h1 {
 /* write your parent styles in here for your App.js */
 
 
-.LogoContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: rgba(225, 225, 225, 0.5);
-}
+
 
 .logo {
   width: 450px;
@@ -89,3 +77,21 @@ p:nth-child(2) {
     width: 300px;
   }
 }
+
+
+/* this was originally in app.js, and it was a class. I replaced with styled-components */
+/* .LogoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(225, 225, 225, 0.5);
+} */
+
+
+/* h1 {
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+} */

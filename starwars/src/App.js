@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import StarWarsCharacters from "./components/MovieList";
 import logo from "./assets/logo.png";
+import {Styledhone, StyledContainer} from "./components/styled";
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -13,11 +14,11 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="LogoContainer">
+      <StyledContainer>
         <img className="logo" src={logo} alt="star wars official logo"/>
-        <h1 className="Header">SWAAPI PEOPLE</h1>
+        <Styledhone className="Header">SWAAPI PEOPLE</Styledhone>
         <StarWarsCharacters />
-      </div>
+      </StyledContainer>
     </div>
   );
 }
