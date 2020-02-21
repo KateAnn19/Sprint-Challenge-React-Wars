@@ -18,6 +18,14 @@ function StarWarsCharacters() {
       
       .then(response => {
         setData(response.data.results);
+
+        axios 
+        .get()
+
+        .then(response => {
+
+        })
+
       })
       .catch(error => {console.log("The data was not returned", error)});
   }, [])

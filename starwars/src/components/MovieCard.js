@@ -34,7 +34,7 @@ const MovieCard = props => {
       <p>Birthday: {props.data.birth_year}</p>
       <p>Weight: {props.data.mass}</p>
       {/* <Homeworld/> */}
-      {/* <Homeworld homeworld= {props.data.homeworld}/> */}
+      <Homeworld homeworld= {props.data.homeworld}/>
       </div>
     </div>
   );
