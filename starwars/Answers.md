@@ -1,0 +1,14 @@
+1. What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+React JS is a Javascript library that combines CSS, HTML and JS. We can write components in React which allows us to make our website modular. We can also create HTML elements a lot faster making production of our application quicker. React uses something called JSX which is unique to react and is the combination language that combines JS, HTML and CSS. 
+
+ 2.	What does it mean to think in react?
+I think this means to think in terms of JSX, data flow and modular coding. Specifically with data flow we need to think about “props” which is something that React gives us and allows us to use to pass data down to child components from parent components. It is essentially an object containing data that gets passed around. We need to keep track of it as we build out smaller components. Along these same lines we also need to think about how we can make our code more “modular” by building smaller components which is what React allows us to do though best practice would say to only go 3-4 levels deep in smaller components that build off parent components. But we can definitely build as many parent components as we want to. And, finally, we need to think in JSX which is unique to React. This allows us to write HTML, CSS and JS all in one. It has special syntax and use cases that we need to be familiar with when building React apps.
+3.	Describe state.
+State is basically data. We set up state in our React apps and then pass that state along. We use a hook nowadays in React called useState(). This ‘hook’ allows us to avoid classes and is a lot less coding for us. By using it we can use state within stateless components which are functional components. An important thing to note, though, is state changes so we also use another hook called useEffect. This isn’t always used, but, if we change our state from outside our function, then we need it around our state. State can be used with event listeners to track changes like button clicks. 
+4.	Describe props.
+Props is something that React gives us to allow us to pass data down from parent to child components. It also allows us to parse data so that the child components do not receive all the data we have but only the parts we want the child component to have. This allows us to only bring in data from something like an API that we want and to pass around what we want. 
+5.	What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+Side effects are something that happens outside our function call like an API request. We need the useEffect() hook when making API requests in order to sync the changes occurring from our API request to state or prop changes.
+
